@@ -2,53 +2,54 @@ export default
     {
         //(Please Do Not Remove The comma(,) after every variable)
         //Change The Website Template
-        name :'chetanverma.',
+        name :'Kemlem Asitimbay.',
         headerTagline: [//Line 1 For Header
-                        'Hi 👋 You found me! I am Your Name.',
+                        "Hi I my name is Kemlem! 👩🏻‍💻 ",
                         //Line 2 For Header
-                        'Digital designer ',
+                        'A designer',
                         //Line 3 For Header
-                        'from India'
+                        'from New York'
     ],
         //Contact Email
-        contactEmail:'hello@chetanverma.com',
+        contactEmail:'asitimbaykemlem@gmail.com',
         // Add Your About Text Here
-        abouttext: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        aboutImage:'https://images.unsplash.com/photo-1521587765099-8835e7201186?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
+        abouttext: "I am a student at Queensborough Community College, interested in the technology field. I am pursuing a career in design and marketing. I’ve worked with the company My Social Canvas and completed a Software Development program. I’m ready for the next step in my career! ",
+       
+        aboutImage:'/assets/kemlem.PNG',
        //Change This To Hide The Image of About Section (True Or False)
        ShowAboutImage:true,//true or false (Change Here)
        // Change Projects Here 
        projects:[
            {
             id: 1,//DO NOT CHANGE THIS (Please)😅
-            title:'Project One', //Project Title - Add Your Project Title Here
-             service:'UI/UX Design', // Add Your Service Type Here
+            title:'MSC Prototype', //Project Title - Add Your Project Title Here
+             service:'UI/UX Design (The nature of this work is confidential.)', // Add Your Service Type Here
             //Project Image - Add Your Project Image Here
-             imageSrc:"https://images.unsplash.com/photo-1558104631-0fa41a8f6c20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+             imageSrc:"/assets/MSC.png",
              //Project URL - Add Your Project Url Here
-             url:'http://chetanverma.com/'
+             url:'https://mysocialcanvas.com/'
             },
             {
                 id: 2,//DO NOT CHANGE THIS (Please)😅
-                title: 'Project Two',
-                service: 'Website Development',
-                imageSrc: "https://images.unsplash.com/photo-1554866585-cd94860890b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-                url: 'http://chetanverma.com/'
+                title: 'Thrift Store',
+                service: 'Front end development (CUNY techWorks)',
+                imageSrc: "/assets/BT.png",
+                url: 'https://github.com/QCC-Shopper-Team-1/Thrift_store'
             },
             { 
                 id: 3,//DO NOT CHANGE THIS (Please)😅
-                title: 'Project Three',
-                service: 'Web App',
-                imageSrc: "https://images.unsplash.com/photo-1511500118080-275313ec90a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-                url: 'http://chetanverma.com/'
+                title: 'WITNY project',
+                service: 'Development',
+                imageSrc: "https://images.squarespace-cdn.com/content/v1/5825f06b6b8f5b74da3fed3b/1479924247453-FCCSUPEWH7560FE6LO3P/ke17ZwdGBToddI8pDm48kGDpvalPb1SqHoCn1hwN0Y57gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmx-YtV7KdJhhcFMxgH7DNwVWsr4BytTuzU0mdZNjZkC7ehjA8nxqmKGxR1QtMJl5J/her-campus-media-squarelogo-1477327171179.png",
+                url: 'https://witny.tech.cornell.edu/'
             },
-            {
-                id: 4,//DO NOT CHANGE THIS (Please)😅
-                title: 'Project Four',
-                service: 'Branding',
-                imageSrc: "https://images.unsplash.com/photo-1558452919-08ae4aea8e29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-                url: 'http://chetanverma.com/'
-           }
+        //     {
+        //         id: 4,//DO NOT CHANGE THIS (Please)😅
+        //         title: 'Project Four',
+        //         service: 'Branding',
+        //         imageSrc: "https://images.unsplash.com/photo-1558452919-08ae4aea8e29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+        //         url: 'http://chetanverma.com/'
+        //    }
 
                     /*
 
@@ -65,19 +66,12 @@ export default
         social: [
             // Add Or Remove The Link Accordingly
             {   name:'Github',
-                url:'https://github.com/chetanverma16'},
+                url:'https://github.com/kemvlem'},
             {
-                name: 'Behance',
-                url: 'https://www.behance.net/chetanverma'
+                name: 'Linkedin',
+                url: 'https://www.linkedin.com/in/kemlem-asitimbay-989b10172/'
             },
-            {
-                name: 'Dribbble',
-                url: 'https://dribbble.com/chetanverma'
-            },
-            {
-                name: 'Instagram',
-                url: 'https://www.instagram.com/cv.uidesign/'
-            }
+            
 
         ]
     }

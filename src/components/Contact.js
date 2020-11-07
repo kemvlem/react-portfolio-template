@@ -7,12 +7,12 @@ class Contact extends Component {
     render() { 
         return (  <div>
         <h1>
-                <Fade bottom cascade> Contact.</Fade>
+                <Fade bottom cascade> Contact Me.</Fade>
         </h1>
         <Fade bottom>
         <div className='contact-content'>
                 <h1>
-                Let’s create your next<br></br>
+                Let’s work on your next<br></br>
                 <span className='amazing-color'>experience together</span></h1>
                     <a href={`mailto:${data.contactEmail}`} className='email'>{data.contactEmail}</a>
                 <ul>
@@ -23,7 +23,7 @@ class Contact extends Component {
         </div>
         </Fade>
 
-            <span className='footer'>Made With ❤ by <a href="http://chetanverma.com/">Chetan Verma</a></span>
+           
         </div>);
     }
 }
